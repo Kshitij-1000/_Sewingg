@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  display: flex;
+  flex-direction:column;
+}
+.logo{
+  width: 26%;
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 33%;
+  border:3px solid blue;
+  border-radius: 73px;
+  position: relative;
+}
+.nav-list{
+  display: flex;
+  margin: 16px;
+  width: -webkit-fill-available;
+  justify-content: space-between;
+}
+
+
+.rightnav{
+  display: flex;
+}
+.rightnav li {
+    list-style: none;
+    padding-right: 8px;
+    padding-top: 27px;
+}
+.rightnav li a{
+  text-decoration: none;
+  font-size: 25px;
+  padding: 21px;
+  color: white;
+}
+.rightnav li a:hover{
+  text-shadow: 3px 2px 3px lightgrey;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#headings{
+  text-shadow: 6px 5px 5px rebeccapurple;
+  text-align: center;
+  margin-top: 46px;
+  color: white;
+  font-size: 80px;
+}
+.effects{
+  text-shadow: 0 0 yellow;
+}
+.getLocation{
+  text-align: -webkit-center;
+  margin: 49px;
+  margin-top: 102px;
+}
+.location-aesthetics{
+  border-color: white;
+  border-radius: 10px;
+  background: none;
+  padding: 13px;
+  color: white;
+  font-size: 20px;
+}
+.getLocation select:hover{
+  background-color: white;
+  cursor: pointer;
+  color: black;
+}
+.backgroundImg{
+  background:url('../images/cloth.jpg');
+  background-size: 100%;
+  background-blend-mode: darken;
+}
